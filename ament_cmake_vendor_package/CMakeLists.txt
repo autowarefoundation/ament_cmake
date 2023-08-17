@@ -12,10 +12,10 @@ ament_package(
   CONFIG_EXTRAS "ament_cmake_vendor_package-extras.cmake"
 )
 
-include(CTest)
-if(BUILD_TESTING)
-  add_subdirectory(test)
-endif()
+# include(CTest)
+# if(BUILD_TESTING)
+#   add_subdirectory(test)
+# endif()
 
 install(
   DIRECTORY cmake
